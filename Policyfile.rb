@@ -33,8 +33,8 @@ run_list(
 # %w(git go packer tree)
 #
 # packages for OS X
-default['homebrew']['casks']      = %w()
-default['homebrew']['formula']    = %w()
+default['homebrew']['casks']      = %w(atom evernote iterm2 tower vlc)
+default['homebrew']['formula']    = %w(ack ansible awscli brew-cask cowsay curl docker fortune  git hub hugo imagemagick jq lua luajit ncurses node openssl packer ruby tmux tree vim wget zsh zsh-completions)
 default['homebrew']['taps']       = %w()
 # packages for Windows
 default['chocolatey']['packages'] = %w()
